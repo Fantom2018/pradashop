@@ -9,3 +9,4 @@ dist/
 node-modules/
 package-loc.json
 app/css/*
+node_modules
