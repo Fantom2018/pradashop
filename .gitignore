@@ -10,3 +10,4 @@ node-modules/
 package-loc.json
 app/css/*
 node_modules
+gulpfile.js
