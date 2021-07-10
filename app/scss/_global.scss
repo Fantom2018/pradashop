@@ -1,9 +1,17 @@
 html,
 body {
-	height: 100%;
+
+   color: $default;
+   font-size: 16px;
+   line-height: 26px;
+   background-color: #fff;
+   @extend %NotoSansHK-400;
+
+
+
 }
 
-.wrapper {
+/* .wrapper {
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
@@ -15,11 +23,15 @@ body {
 .footer {
 	flex: 0 0 auto;
 }
-
+ */
 .container{
   max-width: 1200px;
+  min-height: 100vh;
   margin: 0 auto;
-  padding: 0 15px;
+  /* background-color: rgba(213, 214, 243, 0.205); */
+
+
+
 }
 
 

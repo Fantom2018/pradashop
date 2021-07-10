@@ -1,0 +1,54 @@
+@font-face {
+   font-family: 'Lobster-Regular', sans-serif;
+   src: local ('Lobster-Regular')
+      url('../Lobster-Regular.otf') format(otf),
+      url('../Lobster-Regular.woff') format(woff);
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'NotoSansHK-Black', 'Verdana', 'sans-serif';
+   src: local ('NotoSansHK-Black')
+      url('../NotoSansHK-Black.otf') format(otf),
+      url('../NotoSansHK-Black.woff') format(woff);
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'NotoSansHK-Bold', 'Verdana', 'sans-serif';
+   src: local ('NotoSansHK-Bold')
+      url('../NotoSansHK-Bold.otf') format(otf),
+      url('../NotoSansHK-Bold.woff') format(woff);
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'NotoSansHK-Medium', 'Verdana', 'sans-serif';
+   src: local ('NotoSansHK-Medium')
+      url('../NotoSansHK-Medium.otf') format(otf),
+      url('../NotoSansHK-Medium.woff') format(woff);
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'NotoSansHK-Regular', 'Verdana', 'sans-serif';
+   src: local ('NotoSansHK-Regular')
+      url('../NotoSansHK-Regular.otf') format(otf),
+      url('../NotoSansHK-Regular.woff') format(woff);
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'NotoSansHK-Light', 'Verdana', 'sans-serif';
+   src: local ('NotoSansHK-Light')
+      url('../NotoSansHK-Light.otf') format(otf),
+      url('../NotoSansHK-Light.woff') format(woff);
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}

@@ -2,6 +2,11 @@ html{
   box-sizing: border-box;
 }
 
+body {
+   margin : 0;
+   padding: 0;
+}
+
 *,
 *::after,
 *::before{
@@ -51,3 +56,4 @@ select {
 a{
   text-decoration: none;
 }
+
