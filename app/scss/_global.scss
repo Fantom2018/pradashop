@@ -1,38 +1,26 @@
 html,
 body {
-
+   height: 100%;
    color: $default;
    font-size: 16px;
    line-height: 26px;
    background-color: #fff;
-   @extend %NotoSansHK-400;
-
-
-
+   @extend %default;
+   display: flex;
+   flex-direction: column;
 }
-
-/* .wrapper {
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
-}
-
-.main {
-	flex: 1 0 auto;
-}
-.footer {
-	flex: 0 0 auto;
-}
- */
-.container{
-  max-width: 1200px;
+.main{
+  max-width: 1920px;
   min-height: 100vh;
   margin: 0 auto;
-  /* background-color: rgba(213, 214, 243, 0.205); */
-
-
+  align-items: center;
 
 }
+
+.main-content{
+   flex-grow: 1;
+}
+
 
 
 
