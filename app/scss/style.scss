@@ -7,9 +7,10 @@
 .header{
    position: relative;
    max-width: 1920px;
-   height: 810px;
+   /* height: 810px; */
    margin: 0 auto;
    padding: 0;
+   background-color: $bgn;
    &__inner{
       display: flex;
       content: "";
@@ -19,12 +20,12 @@
       padding: 0;
       align-items: center;
        max-width: 1200px;
-      background-color: rgba(41, 47, 207, 0.205);
+
    }
 
    &__info{
       height: 700px;
-      width: 1920px;
+      max-width: 1920px;
       align-items: center;
       background-color: #be8686;
       position: relative;
@@ -99,9 +100,111 @@ padding-right: 15px;
    text-align: center;
    }
 
-}
-         /* Footer Start */
+}  /*  Header End */
 
+/*  Main Start    */
+/*    Start Slider    */
+
+.adt{
+
+   width: 1920px;
+   height: 700px;
+   border: none;
+}
+.top-slider{
+  /*  max-width: 1920px; */
+   &__inner{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+
+   }
+
+   &__item1{
+      height: 700px;
+      background-image: url(../images/slider/header1.jpg);
+   }
+    &__item2{
+      height: 700px;
+      background-image: url(../images/slider/header2.jpg);
+   } &__item3{
+      height: 700px;
+      background-image: url(../images/slider/header3.jpg);
+   } &__item4{
+      height: 700px;
+      background-image: url(../images/slider/header4.jpg);
+   }
+   &__title{
+      max-width: 670px;
+      font-size: 58px;
+      line-height: 68px;
+      color: $title;
+      @extend %NotoSansHK-900;
+      margin-bottom: 35px;
+      margin-top: 150px;
+      margin-left: 350px;
+
+   }
+   &__text{
+      max-width: 470px;
+      margin-bottom: 35px;
+      color: $title2;
+      margin-left: 350px;
+   }
+   &__link{
+      @extend %btn;
+     bottom: 10px;
+     position: absolute;
+     margin-left: 350px;
+   }
+   .slick-dots{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      left: 550px;
+      bottom: 10px;
+      li{
+         padding: 10px;
+         button{
+            padding: 0;
+            font-size: 0;
+            background-color: $title2;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 1px solid transparent;
+            &::before{
+            content:'';
+            position: absolute;
+            /* width: 6px;
+            height: 6px; */
+            /* background-repeat: 50%; */
+            background-color: #be8686
+            /* transform translate(-50%, -50%); */
+            }
+         }
+         &.slick-active{
+            button{
+              /*  border-color: red; */
+               background-color: $accent;
+               border: 2px solid $accent;
+               padding: 12px;
+               &::after{
+                  background-color: blue;
+               }
+            }
+         }
+      }
+   }
+
+}
+
+
+/*    Slider End */
+
+
+/*    Footer Start    */
 .footer{
     background-color: $bgn;
     height: 430px;
@@ -245,8 +348,3 @@ path{
 }
 
 /* @import 'media'; */
-
-/* &__list-link--active{
-      color: $accent;
-      border-bottom: 1px solid $accent;
-   } */

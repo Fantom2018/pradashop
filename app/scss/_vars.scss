@@ -1,7 +1,9 @@
 $accent: #fe3e57;
 $default: #8d8d8d;
 $title: #29282d;
+$title2: #b4b569;
 $bgn: #f6f6f6;
+
 
 %default{
    font-family: 'Trebuchet MS','sans-serif';
@@ -9,26 +11,34 @@ $bgn: #f6f6f6;
    font-weight: 400;
 }
 %NotoSansHK-900{
-   font-family: 'NotoSansHK-Black';
+   font-family: 'NotoSansHK-Black','sans-serif';
    font-weight: 900;
 }
 %NotoSansHK-700{
-   font-family: 'NotoSansHK-Bold';
+   font-family: 'NotoSansHK-Bold','sans-serif';
    font-weight: 700;
 }
 %NotoSansHK-500{
-   font-family: 'NotoSansHK-Medium';
+   font-family: 'NotoSansHK-Medium','sans-serif';
    font-weight: 500;
 }
 %NotoSansHK-400{
-   font-family: 'NotoSansHK-Regular';
+   font-family: 'NotoSansHK-Regular','sans-serif';
    font-weight: 400;
 }
 %NotoSansHK-300{
-   font-family: 'NotoSansHK-Light';
+   font-family: 'NotoSansHK-Light','sans-serif';
    font-weight: 300;
 }
 %Lobster-Regular{
-   font-family: 'Lobster-Regular', sans-serif;
+   font-family: 'Lobster-Regular','sans-serif';
    font-weight: 400;
+}
+
+%btn{
+   background-color: $accent;
+   text-transform: uppercase;
+   color: #fff;
+   padding: 14px 35px;
+   @extend %NotoSansHK-500;
 }

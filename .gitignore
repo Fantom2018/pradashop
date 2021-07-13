@@ -12,4 +12,5 @@ app/css/*
 node_modules
 gulpfile.js
 Raznoe.txt
-leckal-page.html
+app/leckal-page.html
+Raznoe
