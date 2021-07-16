@@ -283,14 +283,55 @@ padding-right: 15px;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
+      padding-top: 40px;
+      padding-left: 40px;
       &:nth-child(1){
          grid-row: span 2;
       }
       &:nth-child(2){
          grid-column: span 2;
+         padding-top: 86px;
       }
   }
+      &__subtitle{
+         margin-bottom: 10px;
+         @extend %default;
+         font-size: 16px;
+      }
+      &__title{
+         margin-bottom: 20px;
+         @extend %NotoSansHK-700;
+         color: $title;
+         font-size: 22px;
+      }
+
 }
+
+.shoes{
+      background-image: url(../images/category/group1.jpg);
+      h4 {
+           color: #8436b1;
+      }
+}
+.closthes{
+      background-image: url(../images/category/group2.jpg);
+      h4 {
+           color: #2d679c;
+      }
+}
+.mens{
+      background-image: url(../images/category/group3.jpg);
+      h4 {
+           color: #b3601c;
+      }
+}
+.girl{
+      background-image: url(../images/category/group4.jpg);
+      h4 {
+           color: #352ad3;
+      }
+}
+
 
 .footer{
     background-color: $bgn;
