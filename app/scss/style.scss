@@ -332,6 +332,115 @@ padding-right: 15px;
       }
 }
 
+// <!--  Trend Product -->
+
+.trend{
+   max-width: 1920px;
+   .container{
+      position: relative;
+      justify-content: center;
+
+
+   }
+   &__wrapper{
+      position: relative;
+      margin: 0 auto;
+       height: 720px;
+       background-image: url(../images/trending/bg-pattern.png);
+       align-items: stretch;
+   }
+   &__wrapper2{
+      position: relative;
+      margin: 0 auto;
+       height: 720px;
+       background-color: #be8686;
+       display: flex;
+       justify-content: center;
+   }
+
+}
+.trending{
+   /* position: relative; */
+   margin: 0 auto;
+   max-width: 1200px;
+   height: 720px;
+  display: flex;
+  justify-content: space-between;
+   padding: 120px 0;
+ /*  background-color: rgb(207, 240, 217); */
+      &__preview{
+         padding-top: 300px;
+         padding-left: 100px;
+         flex-basis: 570px;
+         flex-shrink: 0;
+         background-image: url(../images/trending/bg-video.jpg);
+         background-repeat: no-repeat;
+         background-position: top center;
+         background-size: cover;
+         justify-content: center;
+         align-items: center;
+      }
+      &__play-video{
+         display: block;
+      }
+      &__info{
+         flex-basis: 570px;
+         flex-shrink: 0;
+         padding-top: 84px;
+
+      }
+
+      &__subtitle{
+         margin-bottom: 25px;
+         @extend %default;
+         font-size: 16px;
+         text-transform: uppercase;
+         color: $accent;
+      }
+      &__title{
+         margin-bottom: 40px;
+         @extend %NotoSansHK-900;
+         color: $title;
+         font-size: 48px;
+         line-height: 26px;
+
+      }
+      &__text{
+         margin-bottom: 60px;
+      @extend %default;
+      color: $default;
+      font-size: 16px;
+      line-height: 26px;
+
+      }
+      &__link{
+         @extend %btn;
+      }
+}
+.shop-products{
+   width: 1200px;
+   min-height: 1080px;
+   position: absolute;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 1 fr);
+   grid-gap: 30px;
+   .product{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+
+
+       &:nth-child(1){
+      background-color: #fff;
+       }
+   }
+
+
+
+ background-color: rgb(236, 236, 204);
+}
+
 
 .footer{
     background-color: $bgn;
